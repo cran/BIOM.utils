@@ -1,0 +1,17 @@
+98369265715b7d529961b38bf36d5dec *DESCRIPTION
+044111be7f844a0e098e19f07b7f0a79 *LICENSE
+ace7f29843461f57b1ed745ff3335c6d *NAMESPACE
+cc7243e98b55f3b5877c523dfc230aeb *R/source.R
+f55cda1e4329caec811e772feb4234ab *R/sysdata.rda
+50c1dc569b66c597b67cb6c1a9dfec70 *README.md
+97587b1ab85d9f27c15f69761e0c6ac8 *data/data.rda
+a7cbc128c7860a9f42a1febcb2f0edc9 *data/examples.rda
+d468f406154718291fe440770a5ce66f *inst/extdata/example-json.txt
+b511912fff3ed858d627816b6020017d *man/BIOMconstants.Rd
+f785bff6e2e0b6642feac548ae32f2d4 *man/BIOMdimensions.Rd
+2a7a89b891d5e5f01bbfe42a5e65a27c *man/BIOMdisplay.Rd
+4c177fec87b3a7c65fa847f1fb8e301e *man/BIOMexamples.Rd
+4891655a528628266c35c1dfd270fa02 *man/BIOMfrom.Rd
+b35c8029297ba406d1e4b15b15aedd62 *man/BIOMto.Rd
+7ed4960e247332a4ffe8a43851cf7d89 *man/SimpleMatrixReshaping.Rd
+0e23e6745cae02012d7384234540784d *tests/tests.R

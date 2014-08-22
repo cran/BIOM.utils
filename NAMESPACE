@@ -1,0 +1,69 @@
+#-----------------------------------------------------------------------------
+#  routines exported for users
+#-----------------------------------------------------------------------------
+
+export(
+	str.biom,				# examining an object
+	summary.biom,
+	print.biomsummary,
+	print.biom,
+	head.biom,
+	tail.biom,
+	dim.biom,
+	dimnames.biom,
+	metadata,
+	metadata.biom,
+
+	as.matrix.biom,			# conversion from
+	as.list.biom,
+	as.character.biom,
+
+	biom,					# conversion to
+	biom.character,
+	biom.matrix,
+	biom.list,
+
+	buildBiomExamples,		# utilities
+	applyBiomMethods,
+	exampleBiomFile,
+	
+	sparse2dense,			# matrix manipulation
+	dense2sparse,
+	matrix2list,
+
+	biom_format,
+	biom_format_url,
+	biom_fields,
+	biom_table_types,
+	biom_matrix_element_types,
+	biom_matrix_types)
+
+#-----------------------------------------------------------------------------
+#  corresponding S3 method declarations
+#-----------------------------------------------------------------------------
+
+S3method (str, biom)
+S3method (summary, biom)
+S3method (print, biomsummary)
+S3method (print, biom)
+S3method (head, biom)
+S3method (tail, biom)
+S3method (dim, biom)
+S3method (dimnames, biom)
+
+S3method (metadata, biom)
+
+S3method (as.matrix, biom)
+S3method (as.list, biom)
+S3method (as.character, biom)
+
+S3method (biom, character)
+S3method (biom, matrix)
+S3method (biom, list)
+
+#-----------------------------------------------------------------------------
+#  to save loading time, we don't do this:
+#    importFrom (RJSONIO, fromJSON, toJSON)
+#-----------------------------------------------------------------------------
+
+importFrom (utils, str, head, tail)
